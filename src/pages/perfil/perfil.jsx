@@ -1,4 +1,4 @@
-import { SectionPerfil } from "../../layout/sections/sectionPerfil/sectionPerfil"
+import { SectionPerfil } from "../../layout/sections/sectionPerfil/SectionPerfil"
 import { Footer } from "../../layout/footer/footer"
 import { Header } from "../../layout/header/header"
 

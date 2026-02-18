@@ -1,0 +1,66 @@
+.section-dish-of-the-day {
+  display: flex;
+  width: 100%;
+  padding: 100px 0px 0px 0px;
+}
+
+.container-img-dish {
+  width: 50%;
+}
+
+.container-img-dish img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 20px;
+}
+
+.container-text h2 {
+  font-family: var(--font-body);
+  font-size: var(--font-headline-h2-size);
+  color: var(--color-secondary-black);
+}
+.container-text h3 {
+  font-family: var(--font-body);
+  font-size: var(--font-headline-h3-size);
+  color: var(--color-primary-red);
+  font-weight: var(--fw-bold);
+}
+
+.container-text p {
+  font-family: var(--font-body);
+  font-size: var(--font-body-size);
+  color: var(--color-secondary-black);
+}
+
+.available {
+  display: flex;
+  width: 104px;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

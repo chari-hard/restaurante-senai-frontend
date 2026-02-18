@@ -1,0 +1,135 @@
+.section-perfil {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px 50px 0px;
+}
+
+.container-perfil {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.9) 0px 5px 80px;
+}
+
+.informacoes-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.informacoes-perfil h2 {
+    font-family: var(--font-body);
+    font-size: var(--font-headline-h4-size);
+    font-weight: var(--fw-semi-bold);
+}
+
+.informacoes-perfil h3 {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    font-weight: var(--fw-semi-bold);
+}
+
+.informacoes-perfil h4 {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    font-weight: var(--fw-light);
+}
+
+.informacoes-perfil h5 {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    font-weight: var(--fw-extralight);
+}
+
+.informacoes-perfil img {
+    max-width: 30vh;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.foto-nome-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-cursos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.curso1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    padding: 10px 100px 10px 10px;
+
+}
+
+.curso2 {
+    background-color: #d9d9d9;
+    padding: 10px 100px 10px 10px;
+}
+
+.container-cursos h3 {
+    border-bottom: 2px solid lab(0% 0 0 / 0.185);
+}
+
+.container-info-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 50px 0px 0px;
+}
+
+.container-info-usuario H2 {
+    font-family: var(--font-body);
+    font-size: var(--font-headline-h3-size);
+    font-weight: var(--fw-bold);
+}
+
+.info-usuario {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    gap: 20px;
+}
+
+.forms-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.id-name-form {
+    grid-column: 1 / -1;
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms-grid h3 {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    font-weight: var(--fw-regular);
+    margin-bottom: 6px;
+}
+
+input {
+    height: 40px;
+    background: #e5e5e5;
+    border: none;
+    border-radius: 4px;
+    padding: 0 10px;
+}

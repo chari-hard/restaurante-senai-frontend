@@ -1,0 +1,19 @@
+.section-main {
+    background-image: url("../../../assets/img/backgroundmain.svg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 200px;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}

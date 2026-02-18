@@ -1,0 +1,56 @@
+:root {
+    /* COLORS */
+    --color-primary-red: #FF0000;
+    --color-secondary-grey: #D9D9D9;
+    --color-secondary-grey-dark: #737070;
+    --color-secondary-white: #FFFFFF;
+    --color-secondary-black: #000000;
+
+    /* FONT SIZES*/
+    --font-headline-h1-size: 70px;
+    --font-headline-h2-size: 48px;
+    --font-headline-h3-size: 30px;
+    --font-headline-h4-size: 24px;
+    --font-body-size: 16px;
+    --font-button-size: 16px;
+    --font-description-size: 16px;
+
+    /* FONT FAMILY */
+    --font-title: "Playfair", serif;
+    --font-body: "Poppins", sans-serif;
+
+    /* FONT WEIGHTS */
+    --fw-extralight: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700; 
+}
+
+    .highlight {
+    color: var(--color-primary-red);
+  }
+
+
+.btn-primary-red {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: var(--font-body);
+    font-size: var(--font-button-size);
+    font-weight: var(--fw-medium);
+    color: var(--color-secondary-white);
+    background-color: var(--color-primary-red);
+    cursor: pointer;
+    border-color: #FF0000;
+    border: 1px;
+    transition: 0.7s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-primary-red:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+    

@@ -1,0 +1,58 @@
+.section-not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-not-found {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-not-found {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main-not-found h2 {
+    font-size: var(--font-headline-h2-size);
+    font-weight: var(--fw-bold);
+    font-family: var(--font-body);
+}
+
+/* -------- */
+
+.nao-existe-not-found {
+    display: flex;
+}
+
+.nao-existe-not-found p {
+    font-size: var(--font-headline-h3-size);
+    font-weight: var(--fw-medium);
+    font-family: var(--font-body);
+    width: 565px;
+    text-align: center;
+}
+
+/* -------- */
+
+.retornar-not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.retornar-not-found p {
+    font-size: var(--font-headline-h3-size);
+    font-weight: var(--fw-medium);
+    font-family: var(--font-body);
+    width: 649px;
+    text-align: center;
+}

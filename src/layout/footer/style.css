@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-primary-red);
+  gap: 20px;
+  padding: 40px 0px 10px 0px;
+}
+
+.main-footer {
+  display: flex;
+  gap: 200px;
+  padding: 20px 0px;
+}
+
+.location-footer,
+.contact-footer {
+  font-family: var(--font-body);
+  color: var(--color-secondary-white);
+}
+
+.copyright-footer {
+  color: var(--color-secondary-white);
+  font-family: var(--font-body);
+}

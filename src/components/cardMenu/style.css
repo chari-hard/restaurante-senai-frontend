@@ -1,0 +1,48 @@
+.card-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    border-radius: 10px;
+    
+}
+
+.card-menu:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.text-card-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    text-align: start;
+    width: 500px;
+}
+
+.text-card-menu h3{
+    font-family: var(--font-body);
+    font-size: var(--font-headline-h3-size);
+    font-weight: var(--fw-regular);
+}
+
+.text-card-menu p {
+    font-family: var(--font-body);
+    font-size: var(--font-headline-h3-size);
+    font-weight: var(--fw-bold);
+}
+
+.img-card-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-card-menu img{
+    height: 230px;
+    object-fit: cover;
+    border-radius:  10px;    
+}
+

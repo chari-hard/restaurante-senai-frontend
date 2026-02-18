@@ -1,0 +1,105 @@
+.section-login {
+  background-image: url(../../../assets/img/delicious-toast-ingredients.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 200px;
+}
+
+.container-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 550px;
+  height: 670px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.container-login h3 {
+  font-family: var(--font-body);
+  font-size: var(--font-headline-h4-size);
+  font-weight: var(--fw-medium);
+}
+
+.form-login {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.form-login input {
+  width: 452px;
+  height: 64px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--color-secondary-grey);
+  color: var(--color-secondary-grey-dark);
+  font-family: var(--font-body);
+  font-size: var(--font-body-size);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 20px;
+}
+
+.card-action {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-login {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid var(--color-primary-red);
+  border-radius: 30px;
+  font-family: var(--font-body);
+  font-size: var(--font-button-size);
+  font-weight: var(--fw-medium);
+  color: var(--color-primary-red);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 1;
+}
+
+.btn-login a {
+  text-decoration: none;
+  color: var(--color-secondary-white);
+}
+
+.btn-login::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--color-primary-red);
+  transition: width 0.3s ease;
+  z-index: -1;
+}
+
+.btn-login:hover::after {
+  width: 100%;
+}
+
+.btn-login:hover {
+  color: var(--color-secondary-white);
+}
+
+.card-action p {
+  font-size: var(--font-button-size);
+  font-family: var(--font-body);
+  color: var(--color-secondary-grey-dark);
+  text-decoration: underline;
+}
